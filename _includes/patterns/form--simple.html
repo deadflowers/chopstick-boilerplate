@@ -1,21 +1,28 @@
 <form action="#" method="post" >
-	<fieldset>
-		<label>Name<abbr title="Required field">*</abbr>
-			<input type="text" placeholder="Full Name" />
-		</label>
+	<div class="alert-box success">
+		<p><strong>Cras sed ante</strong>. Phasellus in massa. Curabitur dolor eros, <a href="#">gravida et</a>, hendrerit ac, cursus non, massa. Aliquam lorem.</p>
+		<a href="#" class="close">&times;</a>
+	</div>
+	<div class="alert-box error">
+		<p><strong>Cras sed ante</strong>. Phasellus in massa. Curabitur dolor eros, <a href="#">gravida et</a>, hendrerit ac, cursus non, massa. Aliquam lorem.</p>
+		<a href="#" class="close">&times;</a>
+	</div>
 
-		<label>Email address<abbr title="Required field">*</abbr>
-			<input type="email" placeholder="email@address.com" />
-		</label>
+	<label>Name<abbr title="Required field">*</abbr>
+		<input type="text" placeholder="Full Name" />
+	</label>
 
-		<label>Message<abbr title="Required field">*</abbr>
-			<textarea rows="5" cols="30"></textarea>
-		</label>
+	<label>Email address<abbr title="Required field">*</abbr>
+		<input type="email" placeholder="email@address.com" />
+	</label>
 
-		<label>
-			<input type="check" /> Opt-in
-		</label>
+	<label>Message<abbr title="Required field">*</abbr>
+		<textarea rows="5" cols="30"></textarea>
+	</label>
 
-		<button type="submit" class="btn">Send</button>
-	</fieldset>
+	<label>
+		<input type="checkbox" /> Opt-in
+	</label>
+
+	<input type="submit" class="btn" />
 </form>

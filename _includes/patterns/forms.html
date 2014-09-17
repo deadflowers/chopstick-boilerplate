@@ -1,4 +1,23 @@
-<h3>Example 1: Standard contact form </h3>
+<div class="form">
+	<h3>Basic form</h3>
+	<p>Comment form containing fields for e-mail, name and comment. Finishing with an opt-in and a submit button</p>
+	{% include patterns/form--simple.html %}
+</div>
+
+<div class="form">
+	<h3>Advanced form</h3>
+	<p>Elaborate multiple fieldsets > select, radiobutton, date picker, number, ... , submit</p>
+	{% include patterns/form--advanced.html %}
+</div>
+
+<div class="form">
+	<h3>Inline form</h3>
+	<p>Multiple examples of inline form elements > radiobuttons, select, text, ...</p>
+	{% include patterns/form--inline.html %}
+</div>
+
+
+<!-- <h3>Example 1: Standard contact form </h3>
 
 <form action="#" method="post">
 	<fieldset>
@@ -268,5 +287,5 @@
 			<input type="datetime-local">
 		</div>
 	</fieldset>
-</form>
+</form> -->
 

@@ -1,5 +1,6 @@
 <form action="#" method="post" >
 	<fieldset>
+		<h4>Basic info</h4>
 		<label>Name<abbr title="Required field">*</abbr>
 			<input type="text" placeholder="Full Name" />
 		</label>
@@ -7,12 +8,29 @@
 		<label>Email address<abbr title="Required field">*</abbr>
 			<input type="email" placeholder="email@address.com" />
 		</label>
+	</fieldset>
+	<fieldset>
+		<h4>Your message</h4>
+		<label>
+			Category:
+			<select>
+				<option></option>
+				<option>Option 1</option>
+				<option>Option 2</option>
+				<option>Option 3</option>
+				<option>Option 4</option>
+				<option>Option 5</option>
+				<option>Option 6</option>
+				<option>Option 7</option>
+			</select>
+		</label>
 
 		<label>Message<abbr title="Required field">*</abbr>
 			<textarea rows="5" cols="30"></textarea>
 		</label>
 	</fieldset>
 	<fieldset>
+		<h4>Options</h4>
 		<select>
 			<option></option>
 			<option>Option 1</option>
@@ -23,8 +41,31 @@
 			<option>Option 6</option>
 			<option>Option 7</option>
 		</select>
+		<ul>
+			<li>
+				<input type="checkbox" /> Opt-in 1
+			</li>
+			<li>
+				<input type="checkbox" /> Opt-in 2
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<input name="radio-list" value="option-1" type="radio" /> Option 1
+			</li>
+			<li>
+				<input name="radio-list" value="option-2" type="radio" /> Option 2
+			</li>
+			<li>
+				<input name="radio-list" value="option-3" type="radio" /> Option 3
+			</li>
+			<li>
+				<input name="radio-list" value="option-4" type="radio" /> Option 4
+			</li>
+		</ul>
 	</fieldset>
 	<fieldset>
-		<button type="submit" class="btn">Send</button>
+		<input type="submit" class="btn" />
+		<button>Reset</button>
 	</fieldset>
 </form>
